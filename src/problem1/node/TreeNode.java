@@ -23,11 +23,6 @@ public class TreeNode {
     public void setData(int data) {
         this.data = data;
     }
-    public TreeNode(TreeNode left, TreeNode right, int data) {
-        this.left = left;
-        this.right = right;
-        this.data = data;
-    }
     public TreeNode getLeft() {
         return left;
     }
