@@ -24,4 +24,13 @@ public class Node {
     public Student getData() {
         return student;
     }
+
+    public void setNext(Node addData) {
+
+    }
+
+    public Student getNext() {
+        return student ;
+
+    }
 }
