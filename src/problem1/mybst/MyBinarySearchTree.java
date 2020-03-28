@@ -13,6 +13,18 @@ public class MyBinarySearchTree {
         this.root = null;
         preOrderString = new StringBuilder();
     }
+    public static void preOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+
+        preOrder(root.getLeft());
+        preOrder(root.getRight());
+        preOrderString.append(root.getData() + " ");
+    }
+    public void add(final int value) {
+        this.root = addService(this.root, value);
+    }
 
 
 
