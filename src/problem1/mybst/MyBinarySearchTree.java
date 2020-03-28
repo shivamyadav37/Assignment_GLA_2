@@ -25,9 +25,23 @@ public class MyBinarySearchTree {
     public void add(final int value) {
         this.root = addService(this.root, value);
     }
+    public TreeNode addService(final TreeNode treeRoot, final int addingValue) {
+        if (treeRoot == null) {
+            return new TreeNode(addingValue);
+        }
+        if (addingValue < treeRoot.getData()) {
+            treeRoot.setLeft(addService(treeRoot.getLeft(), addingValue));
+        } else if (addingValue == treeRoot.getData()) {
+            return treeRoot;
+        } else {
+            treeRoot.setRight(addService(treeRoot.getRight(), addingValue));
+        }
+
+        return treeRoot;
 
 
 
 
 
-}
+
+    }
