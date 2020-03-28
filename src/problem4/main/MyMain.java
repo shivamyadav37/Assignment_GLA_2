@@ -5,22 +5,18 @@ import problem4.myqueue.MyQueue;
 public class MyMain {
     public static void main(String[] args) {
         MyBinarySearchTree tree = new MyBinarySearchTree();
-        tree.add(51);
-        tree.add(39);
-        tree.add(31);
-        tree.add(54);
-        tree.add(92);
+        tree.add(14);
+        tree.add(28);
+        tree.add(42);
+        tree.add(56);
+        tree.add(70);
         tree.add(42);
 
-        MyQueue mq = new MyQueue();
-        /*
-         *   enQueueing from the tree pre-order successors of each node
-         */
-        mq.preSuccessor(tree.root);
+        MyQueue myQueue = new MyQueue();
+
+        myQueue.preSuccessor(tree.root);
         System.out.print("\nPre-Order successor of all the nodes :-  ");
-        /*
-         *       Printing the Queue
-         */
-        mq.getPreSucc();
+
+        myQueue.getPreSucc();
     }
 }
