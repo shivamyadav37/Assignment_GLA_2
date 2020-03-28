@@ -70,9 +70,4 @@ public class MyBinarySearchTree {
     public void countNotLeft() {
         System.out.println(count);
     }
-
-
-
-
-
 }
