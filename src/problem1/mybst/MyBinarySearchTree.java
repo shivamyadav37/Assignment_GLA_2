@@ -8,10 +8,13 @@ public class MyBinarySearchTree {
     static int max_level = 0;
     public TreeNode root;
     private int count = 0;
+
     public MyBinarySearchTree() {
         this.root = null;
         preOrderString = new StringBuilder();
     }
+
+
 
 
 
