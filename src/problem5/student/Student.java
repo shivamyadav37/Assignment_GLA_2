@@ -33,5 +33,21 @@ public class Student {
     public int getAppearingCounter() {
         return appearingCounter;
     }
+    @Override
+    public String toString() {
+        return "Student{" +
+                "rollNumber=" + rollNumber +
+                ", Name='" + Name + '\'' +
+                '}';
+    }
+
+    public String toStrings() {
+        return "Student{" +
+                "rollNumber=" + rollNumber +
+                ", Name='" + Name + '\'' +
+                ", backLogCounter=" + backLogCounter +
+                ", appearingCounter=" + appearingCounter +
+                '}';
+    }
 
 }
