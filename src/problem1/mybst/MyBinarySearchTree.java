@@ -13,6 +13,7 @@ public class MyBinarySearchTree {
         this.root = null;
         preOrderString = new StringBuilder();
     }
+
     public static void preOrder(TreeNode root) {
         if (root == null) {
             return;
@@ -22,9 +23,11 @@ public class MyBinarySearchTree {
         preOrder(root.getRight());
         preOrderString.append(root.getData() + " ");
     }
+
     public void add(final int value) {
         this.root = addService(this.root, value);
     }
+
     public TreeNode addService(final TreeNode treeRoot, final int addingValue) {
         if (treeRoot == null) {
             return new TreeNode(addingValue);
@@ -38,10 +41,14 @@ public class MyBinarySearchTree {
         }
 
         return treeRoot;
-
-
-
-
-
-
     }
+    public void postOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+
+        postOrder(root.getLeft());
+        postOrder(root.getRight());
+        System.out.print(root.getData() + " ");
+    }
+}
