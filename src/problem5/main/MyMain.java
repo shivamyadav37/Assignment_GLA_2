@@ -10,17 +10,17 @@ public class MyMain {
 
         ArrayList<Student> studentList = new ArrayList<>();
 
-        studentList.add(new Student(1, "A", 1, 1));
-        studentList.add(new Student(2, "B", 4, 2));
-        studentList.add(new Student(3, "C", 1, 0));
-        studentList.add(new Student(4, "D", 2, 2));
-        studentList.add(new Student(5, "E", 0, 1));
-        studentList.add(new Student(6, "F", 2, 1));
-        studentList.add(new Student(7, "G", 1, 1));
-        studentList.add(new Student(8, "H", 2, 1));
-        studentList.add(new Student(9, "I", 0, 1));
-        studentList.add(new Student(10, "J", 0, 0));
-        studentList.add(new Student(11, "K", 2, 1));
+        studentList.add(new Student(1, "Arnav", 1, 1));
+        studentList.add(new Student(2, "Bran", 4, 2));
+        studentList.add(new Student(3, "Cersie", 1, 0));
+        studentList.add(new Student(4, "Davos", 2, 2));
+        studentList.add(new Student(5, "Ellard", 0, 1));
+        studentList.add(new Student(6, "Frey", 2, 1));
+        studentList.add(new Student(7, "Gendry", 1, 1));
+        studentList.add(new Student(8, "Hodor", 2, 1));
+        studentList.add(new Student(9, "Ilyn", 0, 1));
+        studentList.add(new Student(10, "Jamie", 0, 0));
+        studentList.add(new Student(11, "Khal", 2, 1));
 
 
         MyCircularQueue studentQueue = new MyCircularQueue();
