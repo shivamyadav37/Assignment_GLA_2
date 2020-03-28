@@ -11,5 +11,18 @@ public class Node {
         next = null;
     }
 
+    public Student getData() {
+        return student;
+    }
+
+
+    public Node getNext() {
+        return next;
+    }
+
+    public void setNext(Node next) {
+        this.next = next;
+    }
+
 
 }
