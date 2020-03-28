@@ -43,4 +43,16 @@ public class MyCircularQueue {
         }
 
     }
+
+    public void printQueue() {
+        Node temp = this.front;
+        for (int i = 0; i < this.size; i++) {
+            if (i != this.size - 1) {
+                System.out.print(temp.getData().toStrings() + "--->");
+                temp = temp.getNext();
+            } else {
+                System.out.println(temp.getData().toStrings());
+            }
+        }
+    }
 }
