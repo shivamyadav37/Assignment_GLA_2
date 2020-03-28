@@ -9,11 +9,11 @@ public class MyMain {
     public static void main(String[] args) {
         MyPriorityQueue myPriorityQueue = new MyPriorityQueue();
 
-        myPriorityQueue.enqueue(new Node(new Student(15, "Arya")));
-        myPriorityQueue.enqueue(new Node(new Student(500, "Sansa")));
-        myPriorityQueue.enqueue(new Node(new Student(50, "Rickon")));
-        myPriorityQueue.enqueue(new Node(new Student(11, "Jon")));
-        myPriorityQueue.enqueue(new Node(new Student(55, "Catelyn")));
+        myPriorityQueue.enqueue(new Node(new Student(1, "Arya")));
+        myPriorityQueue.enqueue(new Node(new Student(50, "Sansa")));
+        myPriorityQueue.enqueue(new Node(new Student(250, "Rickon")));
+        myPriorityQueue.enqueue(new Node(new Student(43, "Jon")));
+        myPriorityQueue.enqueue(new Node(new Student(83, "Catelyn")));
 
         myPriorityQueue.printQueue();
 
