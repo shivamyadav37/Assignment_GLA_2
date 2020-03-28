@@ -9,9 +9,7 @@ public class MyMain {
     public static void main(String[] args) {
 
         ArrayList<Student> studentList = new ArrayList<>();
-        /*
-         * List of Students Values to be Stored in Queue ....
-         */
+
         studentList.add(new Student(1, "A", 1, 1));
         studentList.add(new Student(2, "B", 4, 2));
         studentList.add(new Student(3, "C", 1, 0));
