@@ -19,9 +19,9 @@ public class MyMain {
             }
             i--;
         }
-        System.out.println("All Left-children are :");
+        System.out.println("All Left-Children are -->");
         tree.printLeftNode();
-        System.out.println("Number of nodes doesn't have left child :");
+        System.out.println("Number of nodes Not Having left children are -->");
         tree.countNotLeft();
 
 
